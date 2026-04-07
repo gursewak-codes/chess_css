@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 700px;
+    width: 700px;
+    background-color: rgb(141, 85, 12);
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    padding: 10px;
+    position: relative;
+    
+}
+
+.white{
+    background-color: white;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.label{
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: 1fr ;
+    position: absolute;
+    z-index: 20;
+    top: 100px;
+    width: 700px;
+    font-size: 30px;
+    justify-content: center;
+   
+}
+
+h1{
+    position:absolute;
+    color: antiquewhite;
+    z-index: 20;
+    top: 10px;
+    font-size: 80px;
+    font-weight:400;
+
+}
